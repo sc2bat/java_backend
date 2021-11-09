@@ -42,7 +42,7 @@ class Audio extends Product {
 class Buyer {
 	int money = 1000;
 	int bonusPoint = 0;
-	Vector<E> item = new Vector(); // 구매목록
+	Vector item = new Vector(); // 구매목록
 	// 백터란 배열의 확장형 리스트 구조. -객체들을 저장할 수 있는 배열이라고 이해해도무방
 	// 사용자가 만든 클래스의 객체 (메모리를 할당 받은 레퍼런스 값) 등이 저장되는 다형성 객체 저장 리스트입니다
 //	Computer c = new Computer();
