@@ -25,9 +25,17 @@ public class StringClass01 {
 		String s2 = new String(c); // 배열주소를 초기값으로 문자열 구성.
 		System.out.println("2. " + s2);
 		
+		//3.
+		String n = "0123456789";
+		char c1 = n.charAt(0);
+		char c2 = n.charAt(5);
+		System.out.println("3. " + c1 + "" + c2);
+
+		
 //		0. Hello
 //		1. Hello
 //		2. Hello
+//		3. 05
 
 	}
 
